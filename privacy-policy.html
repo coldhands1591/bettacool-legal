@@ -173,7 +173,7 @@
         </div>
 
         <h1 class="title">Privacy Policy</h1>
-        <p class="updated">Last Updated: February 18, 2026</p>
+        <p class="updated">Last Updated: March 18, 2026</p>
 
         <p class="intro">
             BettaCool ("we", "us", or "our") operates the BettaCool mobile application (the "App").
@@ -213,7 +213,37 @@
         <ul>
             <li><strong>Google Sign-In:</strong> When you sign in with Google, we receive your name, email, and profile
                 picture as authorized by you.</li>
+            <li><strong>Apple Sign-In:</strong> When you sign in with Apple, we receive your name and email address as
+                authorized by you. Apple may provide a private relay email address if you choose to hide your email.</li>
         </ul>
+
+        <h3>1.4 Identity Verification Data (Seller eKYC)</h3>
+        <p>When you choose to verify your seller identity to enable selling and auctioning on the platform, we collect:</p>
+        <ul>
+            <li><strong>National ID Card Photo:</strong> A photo of your government-issued national ID card, captured
+                via the device camera or selected from your photo library.</li>
+            <li><strong>Selfie Photo:</strong> A photo of your face, captured via the front-facing camera, for identity
+                matching purposes.</li>
+            <li><strong>Verification Status:</strong> Whether your identity has been verified, pending, or rejected.</li>
+            <li><strong>PDPA Consent Record:</strong> A record of your explicit consent to the collection and processing
+                of this data, including the date and time of consent.</li>
+        </ul>
+        <p>This data is collected <strong>only with your explicit consent</strong> (PDPA opt-in) and solely for the
+            purpose of verifying your identity as a seller to protect buyers on the platform. Your ID card and selfie
+            photos are stored securely on encrypted servers hosted on Microsoft Azure and are accessible only to
+            authorized administrators for manual review.</p>
+        <p><strong>Important:</strong> You are not required to complete identity verification to use the App. This
+            feature is optional and only required if you wish to sell or auction items on the platform.</p>
+
+        <h3>1.5 Email Verification Data</h3>
+        <p>When you register with an email address, we may send a one-time password (OTP) to your email for verification
+            purposes. We collect:</p>
+        <ul>
+            <li><strong>Email Address:</strong> The email you registered with.</li>
+            <li><strong>Verification Status:</strong> Whether your email has been verified.</li>
+        </ul>
+        <p>OTP codes are hashed and stored temporarily (15 minutes) and automatically deleted after verification or
+            expiry. We do not store plain-text OTP codes.</p>
 
         <h2>2. How We Use Your Information</h2>
         <table>
@@ -248,6 +278,14 @@
                 <tr>
                     <td>Investigate reported content and enforce community guidelines</td>
                     <td>Reporting data, user content</td>
+                </tr>
+                <tr>
+                    <td>Verify seller identity (eKYC)</td>
+                    <td>ID card photo, selfie photo, consent record</td>
+                </tr>
+                <tr>
+                    <td>Verify email address ownership</td>
+                    <td>Email address, OTP verification status</td>
                 </tr>
                 <tr>
                     <td>Communicate with you about updates</td>
@@ -331,7 +369,11 @@
                     <td>Authentication</td>
                     <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
                 </tr>
-
+                <tr>
+                    <td>Apple Sign-In</td>
+                    <td>Authentication</td>
+                    <td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td>
+                </tr>
                 <tr>
                     <td>Expo / EAS</td>
                     <td>App distribution & push notifications</td>
@@ -339,7 +381,7 @@
                 </tr>
                 <tr>
                     <td>Microsoft Azure</td>
-                    <td>Cloud hosting</td>
+                    <td>Cloud hosting & data storage</td>
                     <td><a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a></td>
                 </tr>
             </tbody>
@@ -350,6 +392,11 @@
             <li>We retain your data for as long as your account is active.</li>
             <li>If you delete your account, we will permanently remove your personal data within <strong>30
                     days</strong>, except where required by law.</li>
+            <li><strong>Identity verification data</strong> (ID card photos, selfie photos) is retained for the
+                duration of your account. Upon account deletion, all verification data is permanently deleted within 30
+                days.</li>
+            <li><strong>Email verification OTPs</strong> are automatically deleted after 15 minutes or upon successful
+                verification, whichever comes first.</li>
             <li>Anonymized, aggregated data may be retained for analytics purposes.</li>
         </ul>
 
@@ -370,9 +417,14 @@
             <p>BettaCool เก็บรวบรวมข้อมูลส่วนบุคคลของคุณ (ชื่อ อีเมล รูปโปรไฟล์ เนื้อหาที่โพสต์
                 ข้อมูลการรายงานเนื้อหา) เพื่อให้บริการแอปพลิเคชัน เราไม่ขายข้อมูลส่วนบุคคลของคุณให้บุคคลที่สาม
                 ข้อมูลจะถูกเก็บรักษาอย่างปลอดภัยบน Microsoft Azure</p>
+            <p><strong>การยืนยันตัวตนผู้ขาย:</strong> หากคุณต้องการขายหรือประมูลสินค้า คุณสามารถยืนยันตัวตน
+                ด้วยบัตรประชาชนและถ่ายเซลฟี ข้อมูลนี้จะถูกเก็บอย่างปลอดภัยและเข้าถึงได้โดยผู้ดูแลระบบเท่านั้น
+                การยืนยันตัวตนเป็นทางเลือก ไม่บังคับ และต้องได้รับความยินยอมจากคุณก่อน (PDPA)</p>
+            <p><strong>การยืนยันอีเมล:</strong> เราอาจส่งรหัส OTP ไปยังอีเมลของคุณเพื่อยืนยันตัวตน
+                รหัส OTP จะถูกเข้ารหัสและลบอัตโนมัติภายใน 15 นาที</p>
             <p>คุณมีสิทธิ์ในการเข้าถึง แก้ไข ลบ และขอสำเนาข้อมูลส่วนบุคคลของคุณ ตาม พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล
                 (PDPA) คุณสามารถลบบัญชีได้ผ่าน ตั้งค่า → บัญชี → ลบบัญชี หรือส่งอีเมลมาที่ support@bettacool.com
-                ข้อมูลจะถูกลบถาวรภายใน 30 วัน</p>
+                ข้อมูลจะถูกลบถาวรภายใน 30 วัน (รวมถึงข้อมูลยืนยันตัวตนทั้งหมด)</p>
             <p>ติดต่อเรา: <a href="mailto:support@bettacool.com">support@bettacool.com</a></p>
         </div>
 
